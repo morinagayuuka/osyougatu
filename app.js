@@ -63,7 +63,7 @@ app.get('/', (req, res) => {
   });
 
 // サーバーを起動するコードを貼り付けてください
-app.listen(3000);
+app.listen(5000);
 
 // var server = http.createServer();
 // server.on('request', doRequest);
