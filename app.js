@@ -49,6 +49,7 @@
 // var fs = require('fs');
 const express = require('express');
 const app = express();
+const PORT = process.env.PORT || 5000;
 
 app.use(express.static('public'));
 
@@ -63,9 +64,11 @@ app.get('/', (req, res) => {
   });
 
 // サーバーを起動するコードを貼り付けてください
-app.listen(5000, function() {
-  console.log('Example app listening on port 5000!');
-});
+app.listen(PORT);
+  
+//   5000, function() {
+//   console.log('Example app listening on port 5000!');
+// });
 
 // var server = http.createServer();
 // server.on('request', doRequest);
