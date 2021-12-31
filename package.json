@@ -27,7 +27,8 @@
     "express-generator": "^4.16.1"
   },
   "engines": {
-    "node": "16.13.1"
+    "node": "16.13.1",
+    "npm": "8.1.2"
   },
   "devDependencies": {}
 }
