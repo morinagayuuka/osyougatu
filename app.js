@@ -63,7 +63,9 @@ app.get('/', (req, res) => {
   });
 
 // サーバーを起動するコードを貼り付けてください
-app.listen(5000);
+app.listen(5000, function() {
+  console.log('Example app listening on port 3000!');
+});
 
 // var server = http.createServer();
 // server.on('request', doRequest);
